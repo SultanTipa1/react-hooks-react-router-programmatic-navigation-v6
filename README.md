@@ -50,7 +50,7 @@ as well as some state management logic that mocks user authentication:
 ```jsx
 // App.js
 import { useState, useEffect } from "react";
-// Add useNavigate to import
+// Add useNavigate import to import
 import { Outlet, useNavigate} from "react-router-dom";
 import NavBar from "./components/NavBar";
 
